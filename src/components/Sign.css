@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: -10px;
+    /* height: 100vh; */
+    background-image: url('https://cdn.pixabay.com/photo/2016/09/21/04/46/barley-field-1684052__480.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+
+.form-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    height: auto;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 70px
+}  
+
+.form-container img{
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: 130px;
+    border: black 5px solid;
+    border-radius: 50%;
+    margin-top: 16px;
+}
+
+.form-container .avt{
+    margin-left: 120px;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 5%;
+}
+
+.form-container form label{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+input{
+    font-size: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.form-container form button{
+    /* margin-top: 30px; */
+    margin-bottom: 10px;
+    width: 100%;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 38px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+}
+
+.signlink{
+    margin-bottom: 13px;
+    margin-left: 10px;
+}
+
+.signlink a{
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
