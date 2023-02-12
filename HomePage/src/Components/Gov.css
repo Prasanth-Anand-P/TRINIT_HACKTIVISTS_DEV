@@ -1,0 +1,46 @@
+.policypg{
+    /* margin-top: 50%; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.pocon{
+    /* width: 80%; */
+    /* background-color: yellow; */
+    margin: 20px;
+    /* height: 500px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.policy{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #00b09b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 5px;
+
+
+}
+
+.policy img{
+    height: 350px;
+    width: 250px;
+}
+
+#govtit{
+    font-size: 40px;
+}

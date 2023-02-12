@@ -1,0 +1,39 @@
+.box{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    left: auto;
+    right: 1%;
+    top: 210%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px black solid;
+    margin-bottom: 10px;
+}
+
+.box img{
+    height: 80px;
+    width: 80px;
+}
+
+@media(max-width:768px){
+    .box{
+        top: 336%;
+    }
+}
+
+@media(max-width:425px){
+    .box{
+        top: 505%;
+        height: 80px;
+        width: 80px;
+    }
+
+    .box img{
+        height: 60px;
+        width: 60px;   
+    }
+}
